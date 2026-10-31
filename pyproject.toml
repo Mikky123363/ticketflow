@@ -1,0 +1,18 @@
+[project]
+name = "ticketflow"
+version = "1.0.0"
+description = "TicketFlow - Event Ticketing System API (FastAPI + PostgreSQL)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "sqlalchemy>=2.0",
+    "psycopg[binary]>=3.2",
+    "pydantic[email]>=2.7",
+    "pydantic-settings>=2.3",
+    "PyJWT>=2.8",
+    "passlib>=1.7.4",
+    "python-multipart>=0.0.9",
+    "segno>=1.6",
+]
